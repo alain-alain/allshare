@@ -1,0 +1,29 @@
+#detail {
+    width : 960px;
+    height : 360px;
+    float: left;
+}
+
+#detail-info {
+    width : 520px;
+    height : 320px;
+    word-wrap : break-all;
+}
+
+.btn {
+    width : 240px;
+    height : 120px;
+}
+
+.detail-other {
+    width : 960px;
+    height : 120px;
+}
+
+.detail-user {
+    font-size: small;
+}
+
+.detail-comment {
+    font-size: small;
+}

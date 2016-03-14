@@ -1,0 +1,69 @@
+body {
+     margin:0px;          /* ページ全体のmargin */
+     padding:0px;         /* ページ全体のpadding */
+     text-align:center;   /* 下記のautoに未対応用のセンタリング */
+}
+
+#all {
+    margin-left:auto;    /* 左側マージンを自動的に空ける */
+    margin-right:auto;   /* 右側マージンを自動的に空ける */
+    text-align:left;     /* 中身を左側表示に戻す */
+    width:960px;
+    padding-left : 10px;
+    padding-right : 10px;
+}
+
+#main {
+    width : 640px;
+    height : 240px;
+    float: left;
+}
+
+#sub {
+    width : 224px;
+    height : 240px;
+    float: left;
+}
+
+#info {
+    width : 280px;
+    height : 240px;
+    float: left;
+}
+
+#main-detail {
+    width : 360px;
+    height : 168px;
+    word-wrap : break-all;
+    overflow : hidden;
+}
+
+#sub-detail {
+    width : 136px;
+    height : 168px;
+    word-wrap : break-all;
+    overflow : hidden;
+}
+
+.flleft {
+    float: left;
+}
+
+.ul-none {
+    list-style-type : none;
+    
+}
+
+.list {
+    float : left;
+    margin : 0 20px 0 5px;
+}
+
+.waku {
+    padding: 5px;
+    background: #fff;
+    border: 1px #ccc solid;
+    box-shadow: 0 2px 3px 0 #ddd;
+    -moz-box-shadow: 0 2px 3px 0 #ddd;
+    -webkit-box-shadow: 0 2px 3px 0 #ddd;
+}
